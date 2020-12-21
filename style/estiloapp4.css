@@ -1,0 +1,184 @@
+body {
+    background-color: #FFE4E1;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    Height: 100%;
+}
+
+#titulo {
+
+  text-align: center;
+  font-size: 55px;
+  top: 600px;
+  color: #FFE4E1;
+  text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
+#subtítulo {
+  text-align: left;
+  color: #FFE4E1;
+  text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
+#integrantes {
+
+  font-size: 20px;
+  text-align: left;
+  top: 700px;
+  color: #FFE4E1;
+  text-shadow: gray 0.1em 0.1em 0.2em;
+  font-style: italic;
+
+
+}
+
+.areaDeTrabajo {
+    margin-top: 30px;
+    background-color: #FFB6AE;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.areaDeTrabajo h2 {
+    margin: 10px;
+}
+
+.areaDeTrabajo p {
+    font-style: sans-serif;
+    color: darkblue;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.areaDeTrabajo ol {
+    margin: 20px 0;
+}
+
+.estiloBoton {
+    margin: 30px 20px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #D85D50;
+    border: none;
+    color: ivory;
+    text-align: center;
+    display: inline-block;
+    font-size: 25PX;
+    box-shadow: #E9B2AA 5px 5px 5px 5px;
+}
+
+.estiloBoton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: gold;
+    margin: 30px 20px;
+    padding: 20px 40px;
+}
+
+.estiloBoton:active {
+    cursor: crosshair;
+    opacity: 0.8;
+    color: sienna;
+    margin: 30px 20px;
+    padding: 20px 40px;
+}
+
+#Log {
+    border:2px solid darkgreen;
+    border-radius: 3px;
+    background-color: #FFE4E1;
+    color: darkblue;
+    font-weight: bold;
+    height: 100px;
+    width: 300px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    top: 420px;
+    right: 460px;
+    position: absolute;
+    float: right;
+}
+
+#IdEnviado {
+    padding: 13px 6px
+    border:2px solid darkgreen;
+    border-radius: 3px;
+    background-color: #FFE4E1;
+    color: darkblue;
+    font-weight: bold;
+    width: 77px;
+}
+
+#contenido {
+    padding: 13px 6px
+    border:2px solid darkgreen;
+    border-radius: 3px;
+    background-color: #FFE4E1;
+    color: darkblue;
+    font-weight: bold;
+    height: 277px;
+}
+
+input {
+
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #FFE4E1;
+  color: darkblue;
+  font-weight: bold;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 5% 5%;
+  grid-template-rows: 5% 5%;
+  gap: 1em;
+  margin: auto;
+  padding-top: 2px;
+  padding-right: 1px;
+  padding-bottom: 2px;
+  padding-left: 1px;
+  font-family: Tahoma;
+  text-align: justify;
+
+
+}
+
+.areaDeTrabajo form {
+    display: inline-block;
+}
+
+#espacio-botones {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    position: absolute;
+    top: center;
+    left: 25%;
+    height: 10%;
+    width: 50%;
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .areaDeTrabajo {
+        width: 50%;
+    }
+
+    .areaDeTrabajo input {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .areaDeTrabajo {
+        width: 75%;
+    }
+
+    .areaDeTrabajo input {
+        width: 100px;
+    }
+}

@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Conexión con APIs</title>
+    <link rel="stylesheet" href="style\estiloapp4.css">
+</head>
+
+<body>
+
+    <div class="areaDeTrabajo">
+        <h1 id="titulo"> Tarea 4</h1>
+        <br>
+        <h1 id="subtítulo"> Grupo N°1</h1>
+        <br>
+        <h1 id="integrantes"> Integrante1: Adolfo Navarro <br> Integrante2: Rebecca Tapia</h1>
+        <br>
+        <form name="Conexion con APIS">
+            <label for="hotel">Nombre de hotel: </label>
+            <input type="text" id="hotel"/>
+              <br>
+            <label for="region">Ciudad de locación: </label>
+            <input type="text" id="region" />
+              <br>
+            <label for="estrellas">Número de estrellas oficiales: </label>
+            <input type="text" id="estrellas" />
+            <br>
+        </form>
+
+        <br>
+
+        <div class="Mensajes">
+            <textarea id="log"></textarea>
+       </div>
+
+        </div>
+
+        <div id="espacio-botones">
+            <button id="LlamaAPI2"  class= "estiloBoton">Post con Fetch </button>
+            <button id="LlamaAPI1"  class= "estiloBoton">Post con xhr </button>
+        </div>
+        <br>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "js\app4.js"> </script>
+
+</body>
+
+</html>
